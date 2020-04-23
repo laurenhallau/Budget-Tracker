@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Connecting to the MongoDB or localDB
-mongoose.connect("mongodb://localhost/budget", {
+mongoose.connect(process.env.MONGODB_URL || "mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
