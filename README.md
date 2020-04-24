@@ -18,6 +18,9 @@ When brought back online:
 ## Deployed Application
 https://budget-tracker-lwh.herokuapp.com/
 
+## Screen Shot 
+![](./public/icons/ss.png)
+
 ## User Story
 AS AN avid traveller
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
